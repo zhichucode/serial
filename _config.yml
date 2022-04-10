@@ -5,8 +5,8 @@ baseurl: "/serial"
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Zhichu
+  email: zhichuv@gmail.com
 
 plugins:
   - jemoji
