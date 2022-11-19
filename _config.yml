@@ -1,7 +1,7 @@
 title: Hey, I'm Zhichu.
 markdown: kramdown
-url: "zhichu.xyz"
-baseurl: "/serial"
+url: "zhichi.me"
+baseurl: "/"
 
 # for atom feed
 author:
