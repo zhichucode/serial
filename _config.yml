@@ -6,7 +6,7 @@ url: "zhichucode.github.io/serial"
 # for atom feed
 author:
   name: Zhichu
-  email: zhichuv@gmail.com
+  email: reuse@duck.com
 
 plugins:
   - jemoji
