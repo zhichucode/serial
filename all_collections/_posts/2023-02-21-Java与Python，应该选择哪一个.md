@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 与 Java，应该选择哪一个
+title: Python与Java，应该选择哪一个
 data: 2023-02-21
 categories: [tech]
 ---
@@ -73,6 +73,9 @@ Python 和 Java 都是热门编程语言，拥有许多成功的应用。例如�
 ## 参考链接
 
 [Python Wikipedia](<https://en.wikipedia.org/wiki/Python_(programming_language)>)
+
 [Java Wikipedia](<https://en.wikipedia.org/wiki/Java_(programming_language)>)
+
 [Python vs. Java: Which Should I Learn?](https://www.coursera.org/articles/python-vs-java)
+
 部分文字资料来自 [ChatGPT](https://chat.openai.com)
