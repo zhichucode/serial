@@ -1,4 +1,4 @@
-title: Hey, I'm Zhichu.
+title: 致初
 markdown: kramdown
 url: "zhichucode.github.io/serial"
 #baseurl: "/"
@@ -6,7 +6,7 @@ url: "zhichucode.github.io/serial"
 # for atom feed
 author:
   name: Zhichu
-  email: reuse@duck.com
+  email: zhichuv@gmail.com
 
 plugins:
   - jemoji
