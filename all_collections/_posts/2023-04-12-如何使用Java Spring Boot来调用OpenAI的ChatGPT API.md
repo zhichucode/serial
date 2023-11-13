@@ -8,9 +8,9 @@ data: 2023-04-12
 categories: [tech]
 ---
 
-让我们聊聊需要什么才能从 Java Spring Boot 微服务 Web App 调用 ChatGPT API 。
-我们需要做的就是创建一个 Controller，创建一个 Service，几个 POJO，然后就完成了。最多只需要三十分钟就能大功告成。
-这是代码，Rest Controller 调用 Service，Service 调用 Open AI API，返回第一个结果。
+让我们聊聊怎样才能从 Java Spring Boot 微服务 Web App 调用 ChatGPT API。
+需要做的就是创建一个 Controller，创建一个 Service，几个 POJO，有个三十分钟就可以了。
+下面是 Rest Controller 调用 Service，Service 调用 Open AI API 的代码。
 
 ```java
 // Controller 调用 Service
@@ -122,7 +122,9 @@ public class ChatGptChoice {
 }
 ```
 
-ChatGPTRestController 使用方法 searchChatGPT 来调用由 Spring 注入到 Constructor 中的 ChatGPTService 对象。默认情况下这是一个单例。它在查询中调用 ChatGPTService 方法 processSearch 发送，然后简单地将查询打包到 ChatGPT 所需的请求中并处理可以包含多个“选择”的响应，这仅使用第一个选择并将其返回给服务。带有 CloseableHttpClient 的 Try Block 确保关闭与 Open AI API 调用的连接。其中 URL 和 OPEN API KEY 存储在 applicaiton.properties 文件中。
+在默认情况下，ChatGPTRestController 类使用一个名为 searchChatGPT 的方法来调用 ChatGPTService 对象，这个对象是以单例模式创建的。当执行查询时，searchChatGPT 方法会调用 ChatGPTService 的 processSearch 方法。此过程包括将查询内容封装成 ChatGPT 所需要的请求格式，并发送给 ChatGPT 服务。它接收到的响应可能包含多个“选项”，但我们只使用第一个选项，并将其结果返回给调用服务。此外，代码中使用带有 CloseableHttpClient 的 Try-Catch 代码块，确保了与 Open AI API 的连接在调用完成后被正确关闭。
+
+其中 URL 和 OPEN API KEY 存储在 applicaiton.properties 文件中。
 
 实际发送给 OpenAI API 的请求如下
 
@@ -159,4 +161,4 @@ ChatGPTRestController 使用方法 searchChatGPT 来调用由 Spring 注入到 C
 }
 ```
 
-现在你应该学会了如何用 Spring boot 来调用 ChatGPT 的 API 了吧。
+以上就是使用 Spring boot 调用 ChatGPT API 的方法了。
