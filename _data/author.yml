@@ -1,11 +1,13 @@
 name: Zhichucode
-dp: https://avatars.githubusercontent.com/u/43780800?s=400&u=f40b5d5a457282d3cac59a9ec387707d403fc67a&v=4
+dp: assets/icons/Avatar 43780800.png
 description: "
   <p>
     知之者不如好之者，好之者不如乐之者。
   </p>
   <br/>
 "
+
+# https://avatars.githubusercontent.com/u/43780800?s=400&u=f40b5d5a457282d3cac59a9ec387707d403fc67a&v=4
 email: zhichucode@gmail.com
 contact:
   - title: github
